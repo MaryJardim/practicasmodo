@@ -1,0 +1,59 @@
+body {
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: center;
+background-color: #fff8e5;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+button{
+
+top: 44px;
+left: 32px;
+padding: 4px, 0px, 0px, 0px;
+position: left;
+
+
+}
+
+button.right{
+  width: Fixed 350px;
+  height: Hug 52px;
+  top: 44px;
+  left: 32px;
+  padding: 4px, 0px, 0px, 0px;
+  position: static;
+}
+
+div.contenedortime{ 
+background-color: #F8F8F8;
+top: 250px;
+left: 30px;
+border-radius: 20px;
+position: center;
+}
+
+h2.timer{
+  color: #038859;
+  font-size: 10px;
+}
+
+div.timebarra{
+background-color: black;
+width: 30px;
+height: 7px;
+}
+
+header{
+background-color: #ffc739;
+
+  
+}
+
+
