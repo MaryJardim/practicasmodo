@@ -1,10 +1,19 @@
 body {
-font-size: 16px;
-line-height: 22px;
-letter-spacing: 0px;
-text-align: center;
-background-color: #fff8e5;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: center;
+	background-color: #fff8e5;
 }
+
+header{
+	background-color: #ffc739;
+}
+
+/*
+main {
+
+} */
 
 ul{
   display: flex;
@@ -13,13 +22,10 @@ ul{
 }
 
 button{
-
-top: 44px;
-left: 32px;
-padding: 4px, 0px, 0px, 0px;
-position: left;
-
-
+	top: 44px;
+	left: 32px;
+	padding: 4px, 0px, 0px, 0px;
+	position: left;
 }
 
 button.right{
@@ -31,12 +37,12 @@ button.right{
   position: static;
 }
 
-div.contenedortime{ 
-background-color: #F8F8F8;
-top: 250px;
-left: 30px;
-border-radius: 20px;
-position: center;
+div.contenedortime{
+	background-color: #F8F8F8;
+	top: 250px;
+	left: 30px;
+	border-radius: 20px;
+	position: center;
 }
 
 h2.timer{
@@ -45,15 +51,7 @@ h2.timer{
 }
 
 div.timebarra{
-background-color: black;
-width: 30px;
-height: 7px;
+	background-color: black;
+	width: 30px;
+	height: 7px;
 }
-
-header{
-background-color: #ffc739;
-
-  
-}
-
-
