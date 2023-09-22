@@ -37,7 +37,7 @@ button.right{
   position: static;
 }
 
-div.contenedortime{
+/* div.contenedortime{
 	background-color: #F8F8F8;
 	top: 250px;
 	left: 30px;
@@ -51,6 +51,27 @@ h2.timer{
 }
 
 div.timebarra{
+	background-color: black;
+	width: 30px;
+	height: 7px;
+} */
+
+div.contenedortime {
+	background-color: #F8F8F8;
+	border-radius: 20px;
+	position: relative; /* Cambiamos "center" por "relative" */
+	display: flex; /* Agregamos esta línea para usar flexbox */
+	flex-direction: column; /* Alineamos el contenido verticalmente */
+	align-items: center; /* Centramos horizontalmente */
+	justify-content: center; /* Centramos verticalmente */
+}
+
+h2.timer {
+	color: #038859;
+	font-size: 10px;
+}
+
+div.timebarra {
 	background-color: black;
 	width: 30px;
 	height: 7px;
